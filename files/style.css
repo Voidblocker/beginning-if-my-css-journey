@@ -1,0 +1,23 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(0, 42, 180);
+    background-color: rgb(87, 51, 187);
+}
+
+main{
+    font-size: 20px;
+}
+
+section{
+    width: 50%;
+    background-color: rgb(0, 255, 242);
+    height: 64px;
+    /* margin-top: 25px;
+    margin-bottom: 16px;
+    margin-left: 2em;
+    margin-right: 2em; */
+    margin: 5px auto;
+}
