@@ -10,16 +10,15 @@ body{
 main{
     font-size: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 64px);
     grid-template-rows: repeat(5, 50px);
     grid-template-areas: 
-        "a a a "
-        "a a a "
-        "b c d "
-        "e e d "
-        "f g d "
+        "a a a a a"
+        "b b c d d"
+        "e e e d d"
+        "f g g d d "
         ;          
-    gap: 5px;
+    gap: 3px;
 }
 
 section{
