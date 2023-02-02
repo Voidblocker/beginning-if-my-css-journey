@@ -145,7 +145,7 @@
         font-size: 20px;
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(5, 50px);
+        grid-template-rows: repeat(5, 100px);
         grid-template-areas: 
             "a a b c"
             "a a d e"
@@ -168,15 +168,19 @@
     }
     
     section:nth-of-type(1){
+        background: linear-gradient(90deg, #002654 35%, white 35%, white 65%, #CD1127 65% );
         grid-area: a;
     }
     section:nth-of-type(2){
+        background: linear-gradient( black 35%, #D60000 35%, #D60000 65%, #F7C800 65% );
         grid-area: b;    
     }
     section:nth-of-type(3){
+        background: radial-gradient(red 30%, white 30%);
         grid-area: c;
     }
     section:nth-of-type(4){
+        background: repeating-radial-gradient(red 20%, white 30%);
         grid-area: d;
     }
     section:nth-of-type(5){
