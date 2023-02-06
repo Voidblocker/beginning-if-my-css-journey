@@ -145,7 +145,7 @@
         font-size: 20px;
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(5, 100px);
+        grid-template-rows: repeat(5, 150px);
         grid-template-areas: 
             "a a b c"
             "a a d e"
@@ -185,15 +185,34 @@
     }
     section:nth-of-type(5){
         grid-area: e;
+        background: url(/Images/V0yMqA\ 1\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     section:nth-of-type(6){
         grid-area: f;
+        background: url(/Images/V0yMqA\ 1\ 1.png);
+        background-repeat: no-repeat;
+        background-blend-mode: exclusion;
+        
+    }
+    section:nth-of-type(6):hover{
+        grid-area: f;
+        background-color: #cd112756;
+        background-size: 100px;
+        
+        
     }
     section:nth-of-type(7){
         grid-area: g;
+        background: url(/Images/V0yMqA\ 1\ 1.png) , url(/Images/V0yMqA\ 1\ 1.png) , url(/Images/V0yMqA\ 1\ 1.png) ,url(/Images/V0yMqA\ 1\ 1.png), url(/Images/V0yMqA\ 1\ 1.png);
+        background-repeat: no-repeat;
+        background-position: top right, top left, bottom left , bottom right, center;
     }
     section:nth-of-type(8){
         grid-area: h;
+        background: url(/Images/V0yMqA\ 1\ 1.png);
+        opacity: 0.5;
     }
     section:nth-of-type(9){
         grid-area: i;
